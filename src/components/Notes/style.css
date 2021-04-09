@@ -1,0 +1,38 @@
+.notes-container {
+  text-align: left;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.note.selected {
+  background-color: lightgrey;
+}
+
+.note:hover {
+  background-color: lightgrey;
+}
+
+.btn {
+  margin-top: 1rem;
+}
+
+.note-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.note-date {
+  font-style: italic;
+}
+
+.delete-button {
+  padding: 0.5em;
+  font-size: 75%;
+  float: right;
+}
+
+.delete-button:hover {
+  font-weight: bold;
+}
